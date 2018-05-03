@@ -43,20 +43,20 @@ for feature in featmultipoint:
 FeatClass['distance'] = distances_from_centroid
 distances = np.array(distances_from_centroid)
 
-'''recalibrating the areas 
-to have the median as origin 0,0'''
-xo = []
-for i  in FeatClass.geometry.x:
-    new = i - centdf.geometry.x
-    xo.append(new)
+#'''recalibrating the areas 
+#to have the median as origin 0,0'''
+#xo = []
+#for i  in FeatClass.geometry.x:
+#    new = i - centdf.geometry.x
+#    xo.append(new)
 
-yo = []
-for i in FeatClass.geometry.y:
-    new = i - centdf.geometry.y
-    yo.append(new)
+#yo = []
+#for i in FeatClass.geometry.y:
+#    new = i - centdf.geometry.y
+#    yo.append(new)
 
 
-x, y = np.array(xo) , np.array(yo)
+#x, y = np.array(xo) , np.array(yo)
 
 
 ###### A distance transformation towards the Centroid of the centroids of the input geography is considered######
