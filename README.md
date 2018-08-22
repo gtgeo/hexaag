@@ -1,7 +1,7 @@
 ##  hexaag 
 ###  A tool to create hexmaps
 
-By George Tzelepis (prev ONS, current DfIT)
+By George Tzelepis (prev ONS, current Department for International Trade)
 
 ### 1. What is it:
 
