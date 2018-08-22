@@ -24,4 +24,4 @@ A tool that takes a shapefile as input and outputs a hexmap
 
 
 
-###### TODO: make it in function format.
+
