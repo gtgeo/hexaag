@@ -5,7 +5,7 @@ By George Tzelepis (prev ONS, current Department for International Trade)
 
 ### 1. What is it:
 
-A tool that takes a shapefile as input and outputs a hexmap
+A tool that takes a any file supported by fiona (shapefiles, geojson, geopackages etc) as input and outputs a hexmap
 
 ### 2. Prerequisites:
 
